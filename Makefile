@@ -109,7 +109,7 @@ AS_INCLUDES =
 # C includes
 C_INCLUDES =  \
 -Iinc \
--Ihelix-software/ARD/headers \
+-Ihelix-software/headers \
 -I/usr/include/boost
 
 # compile gcc flags
