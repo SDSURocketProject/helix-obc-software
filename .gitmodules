@@ -1,0 +1,3 @@
+[submodule "helix-software"]
+	path = helix-software
+	url = https://git.sdsurocketproject.org/avionics/helix-software.git

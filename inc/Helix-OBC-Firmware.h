@@ -1,7 +1,7 @@
 #ifndef HELIX_OBC_FIRMWARE_H_
 #define HELIX_OBC_FIRMWARE_H_
 
-#include <CANIDs.h>
+#include "CANIDs.h"
 
 enum HOBC_RETURNS : uint32_t {
     HOBC_SUCCESS,
