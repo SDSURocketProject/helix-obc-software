@@ -137,7 +137,7 @@ LIBDIR =
 #LDFLAGS = $(MCU) -specs=nano.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections
 LDFLAGS = $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections
 
-#add kernel commands to pull in linux kernel headers
+#add kernel pathing to pull in linux kernel headers for CAN
 KERNELDIR = /usr/src/linux
 CFLAGS = -D__KERNEL__ -DMODULE -I$(KERNELDIR)/include -O
 
