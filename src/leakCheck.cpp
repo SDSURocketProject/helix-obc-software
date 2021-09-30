@@ -1,5 +1,5 @@
-#include "leakCheck.h"
-#include "eventTimer.h"
+#include "./../inc/leakCheck.h"
+#include "./../inc/eventTimer.h"
 #include <iostream>
 #include <boost/log/trivial.hpp>
 
